@@ -12,7 +12,7 @@ const SideBar = ({ user }: SiderbarProps) => {
   return (
     <section className="sidebar">
       <nav className='flex flex-col gap-4'>
-        <Link href="/" className="mb-12 cursor-pointer flex items-center gap-2">
+        <Link href="/" className="mb-12 flex cursor-pointer flex items-center gap-2">
           <Image
             src="/icons/logo.svg"
             alt="Tabi Bank logo"
@@ -49,11 +49,12 @@ const SideBar = ({ user }: SiderbarProps) => {
           )
         })}
         
-        {/* USER INFO COMPONENT WOULD GO HERE */}
+        USER
       </nav>
       
-      {/* FOOTER COMPONENT WOULD GO HERE */}
+      Footter
     </section>
+        
   )
 }
 
