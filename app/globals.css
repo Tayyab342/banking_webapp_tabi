@@ -101,7 +101,8 @@
   }
 
   .text-36 {
-    @apply text-4xl leading-11;
+   @apply leading-[2.75rem]; 
+
   }
 
   /* Home */
